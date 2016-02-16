@@ -29,4 +29,5 @@ echo $resultdata
 for file in $dir;do
   wc -clmw $file >> $resultdata
 done
-mv $resultdata ../
+mv $resultdata ../result
+
